@@ -1,4 +1,29 @@
-body {font-family:verdana;}
-h1 {color:#333; font-size:20px;} 
-h2 {color:#666; font-size:16px;} 
-p, li {color:#000; font-size:12px;}
+body {
+    background-image: url('https://1.bp.blogspot.com/-RFHkdTgH0Ls/YMEk6ZOcgcI/AAAAAAAAiSk/cAYO5TaUzPM4hLmqtTL0lQlG0c1aKU2WACLcBGAsYHQ/s2535/V1-MINIMAL_MOUNTAIN-HD.png');
+color: rgb(18, 81, 117);
+}
+body { text-align: center;
+    font-family:Noto Sans;
+}
+.centrar-listas {
+	text-align: center;
+}
+
+.centrar-listas ul,
+.centrar-listas ol {
+	text-align: left;
+	display: inline-block;
+}
+.tit1{
+    color:rgb(13, 25, 48);
+     font-size:30px;
+     text-decoration: underline;
+     text-decoration-style: wavy;
+    } 
+h2 {
+    color:rgb(17, 10, 46);
+     font-size:20px;
+     text-decoration: underline;
+     text-decoration-style: wavy;
+    } 
+p, li {color:#000; font-size:14px;}

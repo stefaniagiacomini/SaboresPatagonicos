@@ -1,29 +1,45 @@
 body {
     background-image: url('https://1.bp.blogspot.com/-RFHkdTgH0Ls/YMEk6ZOcgcI/AAAAAAAAiSk/cAYO5TaUzPM4hLmqtTL0lQlG0c1aKU2WACLcBGAsYHQ/s2535/V1-MINIMAL_MOUNTAIN-HD.png');
 color: rgb(18, 81, 117);
-}
-body { text-align: center;
+background-attachment: scroll;
+ text-align: center;
     font-family:Noto Sans;
 }
-.centrar-listas {
-	text-align: center;
-}
-
-.centrar-listas ul,
-.centrar-listas ol {
-	text-align: left;
-	display: inline-block;
-}
+.centrar-listasitems ul{ list-style-image: url('Imagenes/icons8-sartén-24.png');
+    text-align: left; display: inline-block;}
+.centrar-listasnum {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    }
 .tit1{
-    color:rgb(13, 25, 48);
-     font-size:30px;
-     text-decoration: underline;
-     text-decoration-style: wavy;
+    color:rgb(13, 25, 48); font-size:30px; text-decoration: underline; text-decoration-style: wavy;
+     background: -webkit-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+     background: -moz-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+     background: -ms-linear-gradient (90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+     background: -o-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+     background: linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
     } 
+ .tit2{
+        color:rgb(13, 25, 48); font-size:30px; text-decoration: underline; text-decoration-style: wavy;
+         background: -webkit-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+         background: -moz-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+         background: -ms-linear-gradient (90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+         background: -o-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+         background: linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+        } 
+        .enlaces { background-color: #64300d;
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none; }
+        .enlaces:hover {
+            background-color: #dfdb6c;
+          }
 h2 {
-    color:rgb(17, 10, 46);
-     font-size:20px;
+    color:rgb(17, 10, 46); font-size:22px;
      text-decoration: underline;
      text-decoration-style: wavy;
     } 
-p, li {color:#000; font-size:14px;}
+p, li {color:#000; font-size:16px;}
+.cordero { width:450px; height:350px;}
+.wspicono {width: 55px; position: fixed; bottom: 15px; right: 20px; }

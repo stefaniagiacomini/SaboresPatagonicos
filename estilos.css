@@ -2,9 +2,35 @@ body {
     background-image: url('https://1.bp.blogspot.com/-RFHkdTgH0Ls/YMEk6ZOcgcI/AAAAAAAAiSk/cAYO5TaUzPM4hLmqtTL0lQlG0c1aKU2WACLcBGAsYHQ/s2535/V1-MINIMAL_MOUNTAIN-HD.png');
 color: rgb(18, 81, 117);
 background-attachment: scroll;
- text-align: center;
-    font-family:Noto Sans;
+width: 100vw;
+font-family:Noto Sans;
 }
+header {display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    height: 250px;
+    width: 100vw;
+    background-image: url(Imagenes/montanas.png);
+ }
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        filter: drop-shadow(1px 1px 2px black);
+      }     
+    .titulo {
+        display: flex;
+        justify-content: center;
+    } 
+    .redes {
+        width: 15vw;
+        display: flex;
+      justify-content: flex-end;
+      justify-content: space-around;
+      align-self: flex-end;
+      filter: drop-shadow(1px 1px 1px black);
+      }
 .centrar-listasitems ul{ list-style-image: url('Imagenes/icons8-sartén-24.png');
     text-align: left; display: inline-block;}
 .centrar-listasnum {
@@ -13,33 +39,78 @@ background-attachment: scroll;
     align-items:center;
     }
 .tit1{
-    color:rgb(13, 25, 48); font-size:30px; text-decoration: underline; text-decoration-style: wavy;
-     background: -webkit-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-     background: -moz-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-     background: -ms-linear-gradient (90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-     background: -o-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-     background: linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+    color:rgb(255, 255, 255); font-size:30px;
+     background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(11, 87, 70) 90%);
+     text-align: center;
     } 
+
  .tit2{
-        color:rgb(13, 25, 48); font-size:30px; text-decoration: underline; text-decoration-style: wavy;
-         background: -webkit-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-         background: -moz-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-         background: -ms-linear-gradient (90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-         background: -o-linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
-         background: linear-gradient(90deg, rgb(162, 224, 188) 10%, rgb(1, 102, 43) 90%);
+        color:rgb(255, 255, 255); font-size:30px; 
+         background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(3, 87, 83) 90%);
+         text-align: center;
         } 
-        .enlaces { background-color: #64300d;
+        .enlaces { background-color: #522d15;
         color: white;
         padding: 15px 25px;
         text-decoration: none; }
         .enlaces:hover {
-            background-color: #dfdb6c;
+            background-color: #2fb689;
           }
 h2 {
     color:rgb(17, 10, 46); font-size:22px;
      text-decoration: underline;
      text-decoration-style: wavy;
+     text-align: center;
     } 
-p, li {color:#000; font-size:16px;}
-.cordero { width:450px; height:350px;}
-.wspicono {width: 55px; position: fixed; bottom: 15px; right: 20px; }
+    h3 {color:rgb(255, 255, 255); font-size:16px}
+p {color:#000; font-size:16px;text-align: center; }
+ li {color:#000; font-size:16px; }
+.cordero { width:450px; height:350px;filter: drop-shadow(1px 1px 2px black)}
+.wspicono {width: 55px; position: fixed; bottom: 15px; right: 20px; 
+    filter: drop-shadow(1px 1px 2px black );
+    transition: transform .2s;
+    }
+.wspicono:hover {
+        transform: scale(1.5);
+      }
+section {
+    text-align: center;
+}
+footer {display: flex;
+    width: 100vw;
+    height: 25vh;
+    background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(11, 87, 70) 90%);
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap;
+   }
+.redesfooter { width: 15vw;
+    display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  align-self: flex-end;
+  filter: drop-shadow(1px 1px 1px black);
+  transition: transform .2s;
+  }
+  .instagramicono{
+    transition: transform .2s;
+  }
+  .instagramicono:hover {
+    transform: scale(1.5);
+  }
+  .fbicono{
+    transition: transform .2s;
+  }
+  .fbicono:hover {
+    transform: scale(1.5);
+  }
+  .tiktokicono{
+    transition: transform .2s;
+  }
+  .tiktokicono:hover {
+    transform: scale(1.5);
+  }
+.autor1 {float: left;}
+.mail {float: left;}
+.ubic {float: left;}

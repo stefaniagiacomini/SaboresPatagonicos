@@ -3,14 +3,14 @@ body {
 color: rgb(18, 81, 117);
 background-attachment: scroll;
 width: 100vw;
-font-family:Noto Sans;
+font-family: 'Sono', sans-serif;
 }
 header {display: flex;
     justify-content: center;
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
-    height: 250px;
+    height: 20vw;
     width: 100vw;
     background-image: url(Imagenes/montanas.png);
  }
@@ -39,42 +39,108 @@ header {display: flex;
     align-items:center;
     }
 .tit1{
-    color:rgb(255, 255, 255); font-size:30px;
+    color:rgb(255, 255, 255); font-size:6vh;
      background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(11, 87, 70) 90%);
      text-align: center;
+     font-family: 'IM Fell DW Pica', serif;
     } 
 
  .tit2{
-        color:rgb(255, 255, 255); font-size:30px; 
+        color:rgb(255, 255, 255); font-size:6vh; 
          background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(3, 87, 83) 90%);
-         text-align: center;
+         text-align: center; font-family: 'IM Fell DW Pica', serif;
         } 
-        .enlaces { background-color: #522d15;
-        color: white;
-        padding: 15px 25px;
-        text-decoration: none; }
-        .enlaces:hover {
-            background-color: #2fb689;
-          }
+.enlaces1 { background-color: #522d15;
+            color: white;
+            padding: 3vh 5vw;
+            text-decoration: none; }
+            .enlaces1:hover {
+                background-color: #2fb689;
+              }
 h2 {
-    color:rgb(17, 10, 46); font-size:22px;
+    color:rgb(17, 10, 46); font-size:5vh;
      text-decoration: underline;
      text-decoration-style: wavy;
      text-align: center;
     } 
-    h3 {color:rgb(255, 255, 255); font-size:16px}
-p {color:#000; font-size:16px;text-align: center; }
- li {color:#000; font-size:16px; }
-.cordero { width:450px; height:350px;filter: drop-shadow(1px 1px 2px black)}
-.wspicono {width: 55px; position: fixed; bottom: 15px; right: 20px; 
+    h3 {color:rgb(255, 255, 255); font-size:2.5vh}
+p {color:#000; font-size:3vh;text-align: center; }
+ li {color:#000; font-size:3vh; }
+.cordero { width:35vw; height:20vw;filter: drop-shadow(1px 1px 2px black)}
+.video {width:35vw; height:20vw;  filter: drop-shadow(1px 1px 2px black );
+ }
+.wspicono {width: 5vw; position: fixed; bottom: 5vw; right: 2vw; 
     filter: drop-shadow(1px 1px 2px black );
     transition: transform .2s;
     }
 .wspicono:hover {
         transform: scale(1.5);
       }
+ nav { font-family: 'IM Fell DW Pica';
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 100vw;
+	height: 10 vh;
+	background-color:  rgb(122, 65, 27);
+	font-size: 0;
+      }
+      nav a {
+        line-height: 8vh;
+        height: 100%;
+        font-size: 4vh;
+        display: inline-block;
+        justify-content: center;
+  align-items: center;
+        z-index: 1;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+      }
+      nav .animation {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all .5s ease 0s;
+      }
+      a:nth-child(1) { width: 10vw;}
+      a:nth-child(2) { width: 10vw; }
+      a:nth-child(3) { width: 10vw; }
+      a:nth-child(4) {  width: 10vw;}
+      a:nth-child(5) { width: 10vw; }
+      nav .start-home, a:nth-child(1):hover~.animation {
+        width: 12vw;
+        left: 23vw; 
+        background-color: #1abc9c;
+      }
+      nav .start-about, a:nth-child(2):hover~.animation {
+        width: 10vw;
+        left: 35vw;
+        background-color: #e74c3c;
+      }
+      nav .start-blog, a:nth-child(3):hover~.animation {
+        width: 10vw;
+        left: 45vw;
+        background-color: #3498db;
+      }
+      nav .start-portefolio, a:nth-child(4):hover~.animation {
+        width: 10vw;
+        left: 55vw;
+        background-color: #9b59b6;
+      }
+      nav .start-contact, a:nth-child(5):hover~.animation {
+        width: 10vw;
+        left: 65vw;
+        background-color: #e67e22;
+      }
+      
 section {
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 footer {display: flex;
     width: 100vw;
@@ -93,24 +159,22 @@ footer {display: flex;
   filter: drop-shadow(1px 1px 1px black);
   transition: transform .2s;
   }
-  .instagramicono{
-    transition: transform .2s;
-  }
-  .instagramicono:hover {
-    transform: scale(1.5);
-  }
-  .fbicono{
-    transition: transform .2s;
-  }
-  .fbicono:hover {
-    transform: scale(1.5);
-  }
-  .tiktokicono{
-    transition: transform .2s;
-  }
-  .tiktokicono:hover {
-    transform: scale(1.5);
-  }
+.instagramicono{ transition: transform .2s; }
+.instagramicono:hover { transform: scale(1.5); }
+.fbicono{ transition: transform .2s; }
+.fbicono:hover { transform: scale(1.5); }
+.tiktokicono{ transition: transform .2s;}
+.tiktokicono:hover { transform: scale(1.5); }
+.visita{ width: 20vw; height: 30vh; filter: drop-shadow(1px 1px 2px black ) }
+.mapa{ width: 20vw; height: 30vh; filter: drop-shadow(1px 1px 2px black ) }
+.mapa2{ width: 13%; filter: drop-shadow(1px 1px 2px black ) }
 .autor1 {float: left;}
 .mail {float: left;}
 .ubic {float: left;}
+.contacto {text-align: center; background-color: #522d15;
+  color: white;
+  padding: 3vh 5vw;
+  text-decoration: none; }
+  .contacto:hover {
+      background-color: #2fb689;
+    }

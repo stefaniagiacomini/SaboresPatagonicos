@@ -1,0 +1,214 @@
+body {
+    background-image: url(Imagenes/fondomont.png);
+color: rgb(18, 81, 117);
+background-attachment: scroll;
+width: 100vw;
+font-family: 'Sono', sans-serif;
+}
+header {display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    height: 20vw;
+    width: 100vw;
+    background-image: url(Imagenes/montanas.png);
+ }
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        filter: drop-shadow(1px 1px 2px black);
+        width: 15vw;
+      }     
+    .titulo {
+      width: 40vw;
+        display: flex;
+        justify-content: center;
+    } 
+    .redes {
+        width: 10vw;
+        display: flex;
+      justify-content: flex-end;
+      justify-content: space-around;
+      align-self: flex-end;
+      filter: drop-shadow(1px 1px 1px black);
+      }
+.centrar-listasitems ul{ list-style-image: url('Imagenes/icons8-sartén-24.png');
+    text-align: left; display: inline-block;}
+.centrar-listasnum {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    }
+.tit1{
+    color:rgb(255, 255, 255); font-size:5vh;
+     background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(11, 87, 70) 90%);
+     text-align: center;
+     font-family: 'IM Fell DW Pica', serif;
+    } 
+
+ .tit2{
+        color:rgb(255, 255, 255); font-size:5vh; 
+         background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(3, 87, 83) 90%);
+         text-align: center; font-family: 'IM Fell DW Pica', serif;
+        } 
+
+.enlaces1 {justify-content: space-around; background-color: #522d15;
+  color: white; font-size:2vh ;
+  padding: 3vh 5vw;
+  text-decoration: none;}
+  .enlaces1:hover {
+                background-color: #2fb689;
+              }
+h2 {
+    color:rgb(17, 10, 46); font-size:3.5vh;
+     text-decoration: underline;
+     text-decoration-style: wavy;
+     text-align: center;
+     filter: drop-shadow(1px 1px 1px rgb(98, 180, 212))
+    } 
+    h3 {color:rgb(255, 255, 255); font-size:2.5vh}
+p {color:#000; font-size:3vh;text-align: center; }
+ li {color:#000; font-size:3vh; }
+.cordero { width:35vw; height:20vw;filter: drop-shadow(1px 1px 2px black)}
+.video {width:35vw; height:20vw;  filter: drop-shadow(1px 1px 2px black );
+ }
+.wspicono { width: 5vw; position: fixed; bottom: 5vh; right: 2vw; 
+    filter: drop-shadow(1px 1px 2px black );
+    transition: transform .2s;
+    }
+.wspicono:hover {
+        transform: scale(1.5);
+      }
+/*Menú de pantalla*/
+ nav { font-family: 'IM Fell DW Pica';
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 100vw;
+	height: 10 vh;
+	background-color:  rgb(122, 65, 27);
+	font-size: 0;}
+ nav a {
+        line-height: 7vh;
+        height: 100%;
+        font-size: 4vh;
+        display:flex;
+      justify-content: space-around;
+  align-items: center;
+        z-index: 1;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        cursor: pointer;  }
+nav .animation {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all .5s ease 0s; }
+ a:nth-child(1) { width: 10vw;}
+ a:nth-child(2) { width: 10vw; }
+ a:nth-child(3) { width: 10vw; }
+ a:nth-child(4) {  width: 10vw;}
+ a:nth-child(5) { width: 10vw; }
+ a:nth-child(1):hover~.animation {
+        width: 12vw;
+        left: 23vw; 
+        background-color: #1abc9c;
+      }
+      a:nth-child(2):hover~.animation {
+        width: 10vw;
+        left: 35vw;
+        background-color: #e74c3c;
+      }
+      a:nth-child(3):hover~.animation {
+        width: 10vw;
+        left: 45vw;
+        background-color: #3498db;
+      }
+      a:nth-child(4):hover~.animation {
+        width: 10vw;
+        left: 55vw;
+        background-color: #9b59b6;
+      }
+      a:nth-child(5):hover~.animation {
+        width: 10vw;
+        left: 65vw;
+        background-color: #e67e22;
+      }
+      
+section {
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; 
+}
+.enlacesrecetas { display:flex; flex-wrap:wrap; justify-content: space-around; }
+ /*modificaciones del footer*/
+footer {display: flex;
+    width: 100vw;
+    height: 25vh;
+    background: linear-gradient(90deg, rgb(122, 65, 27) 10%, rgb(11, 87, 70) 90%);
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+   }
+.redesfooter { width: 15vw;
+    display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  align-self: flex-end;
+  filter: drop-shadow(1px 1px 1px black);
+  transition: transform .2s;
+  }
+.instagramicono{ width:5vw;transition: transform .2s; }
+.instagramicono:hover { transform: scale(1.5); }
+.fbicono{width:5vw; transition: transform .2s; }
+.fbicono:hover { transform: scale(1.5); }
+.tiktokicono{ width:5vw;transition: transform .2s;}
+.tiktokicono:hover { transform: scale(1.5); }
+.visita{  height: 30vh; filter: drop-shadow(1px 1px 2px black ) }
+.mapa{  height: 30vh; filter: drop-shadow(1px 1px 2px black ) }
+.mapa2{ width: 13%; filter: drop-shadow(1px 1px 2px black ) }
+.autor1 {float: left; width: 3vw;}
+.mail {float: left; width: 3vw;}
+.ubic {float: left; width: 3vw;}
+.contacto {text-align: center; background-color: #522d15;
+  color: white;
+  padding: 3vh 5vw;
+  text-decoration: none; }
+  .contacto:hover { background-color: #2fb689; }
+  /*adaptación celular vertical*/
+@media (max-width:575px){
+  nav{flex-direction: column; }
+  a:nth-child(1) { height: 6vh;}
+  a:nth-child(2) { height: 6vh; }
+  a:nth-child(3) { height: 6vh; }
+  a:nth-child(4) {  height: 6vh;}
+  a:nth-child(5) { height: 6vh; }
+   nav a { justify-content: center; }
+  a:nth-child(1):hover~.animation {left:42vw; height: 5vh; width: 15vw;top:0vh;}
+  a:nth-child(2):hover~.animation {left:40vw;width: 20vw;height:5vh;top:6vh;}
+  a:nth-child(3):hover~.animation {left:41vw;height: 4vh;width: 17vw;top:13vh;}
+  a:nth-child(4):hover~.animation {left:38vw;width: 24vw;height: 4vh;top:19vh;}
+  a:nth-child(5):hover~.animation {left:38vw;width: 24vw;height: 4vh;top:25vh;}
+  .wspicono { width: 10vw;  }
+  .redes{display:none;}
+  .mapa2{ display:none; }
+  .cordero{ display:none; }
+}
+/*adaptación celular horizontal*/
+@media (min-width:576px) and (max-width:767px){ 
+  .wspicono { width: 8vw;  }
+  .redesfooter{display:none;}
+  .mapa2{ display:none; }
+  .autor {display:flex;justify-content: space-around; }
+  .autor1 {height: 3vw;}
+.mail {height: 3vw;}
+.ubic { height: 3vw;}
+}
+/*pantalla*/
+@media (min-width:767px){
+  section1 {display:none;}
+}
